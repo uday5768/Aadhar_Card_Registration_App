@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/page2"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity2">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:src="@drawable/aadhaar2">
+    </ImageButton>
+
+    <TextView
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="Official Government Portal for Aadhar Registration"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="------Login or Sign Up------"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter Phone number"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            />
+
+    </GridLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_______________________________________________"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR\n Use Google Account Instead"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/googlelogo"
+        android:scaleType="fitCenter"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Next"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:text="Next"
+        />
+
+
+</LinearLayout>

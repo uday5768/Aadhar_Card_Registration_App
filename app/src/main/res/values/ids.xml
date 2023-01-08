@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="page2" type="id" />
+    <item name="spinner" type="id" />
+    <item name="Next" type="id" />
+    <item name="page3" type="id" />
+    <item name="FirstName" type="id" />
+    <item name="LastName" type="id" />
+    <item name="Date" type="id" />
+    <item name="option1" type="id" />
+    <item name="option2" type="id" />
+    <item name="option3" type="id" />
+    <item name="PhoneNumber" type="id" />
+    <item name="Email" type="id" />
+    <item name="proceed" type="id" />
+</resources>
